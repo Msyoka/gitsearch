@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { UserDataComponent } from './user-data/user-data.component';
+import { UserRepoComponent } from './user-repo/user-repo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserDataComponent
+    UserDataComponent,
+    UserRepoComponent
   ],
   imports: [
     BrowserModule,
