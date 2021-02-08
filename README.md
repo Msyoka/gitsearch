@@ -6,7 +6,7 @@
 
 ## Description
 
-This is agular-cli application to search for repositories and profiles in GitHub.
+This is angular-cli application to search for repositories and profiles in GitHub.
 
 ## Live Page
 
