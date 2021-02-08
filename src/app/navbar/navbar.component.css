@@ -1,0 +1,10 @@
+.navbar {
+    height: 70px;
+    background-color: #31353f;
+}
+
+.navbar-brand.h1 {
+    color: #89fef8;
+    font-size: 2em;
+    margin-left: .8em;
+}
