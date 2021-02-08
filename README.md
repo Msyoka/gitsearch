@@ -21,7 +21,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * cd gitsearch
 * code ./atom .  depwnding on the text editor one has.
 
-##Technologies Used
+## Technologies Used
 
 * [HTML5]
 * [CSS]
