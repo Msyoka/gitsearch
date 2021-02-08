@@ -11,6 +11,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchBarComponent } from './search-bar/search-bar.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     UserDataComponent,
     UserRepoComponent,
     NavbarComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
