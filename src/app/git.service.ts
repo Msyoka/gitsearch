@@ -9,7 +9,13 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 })
 export class GitService {
 
-  user: Users[] = [];
+  private _user: Users[] = [];
+  public get user(): Users[] {
+    return this._user;
+  }
+  public set user(value: Users[]) {
+    this._user = value;
+  }
   _URL = 'https://api.github.com/users/';
   token = 'cbde866d93b44638dbc931242e7f19ea055b30a7';
 
