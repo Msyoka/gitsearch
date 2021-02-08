@@ -1,6 +1,33 @@
 # Gitsearch
 
+## Author
+
+[David-Mumo](https://github.com/Msyoka)
+
+## Description
+
+This is agular-cli application to search for repositories and profiles in GitHub.
+
+## Live Page
+
+https://msyoka.github.io/gitsearch/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.1.
+
+## Installation / Setup Instructions
+
+* Open terminal
+* git clone "https://github.com/Msyoka/gitsearch.git"
+* cd gitsearch
+* code ./atom .  depwnding on the text editor one has.
+
+##Technologies Used
+
+* [HTML5]
+* [CSS]
+* [AngularCLI]
+* [Bootstrap]
+* [GitHubAPI]
 
 ## Development server
 
@@ -25,3 +52,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Contact Information
+
+If you may have any question or contributions, please contact me via email at [daviemumo37@gmail.com]
+
+## License
+
+Copyright (C) by 20121 **David Mumo**
