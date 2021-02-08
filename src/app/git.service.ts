@@ -7,16 +7,10 @@ import { SearchBarComponent } from './search-bar/search-bar.component';
 @Injectable({
   providedIn: 'root'
 })
-export class GitServiceService {
+export class GitService {
 
   user: Users[] = [];
-  private _URL = 'https://api.github.com/users/';
-  public get URL() {
-    return this._URL;
-  }
-  public set URL(value) {
-    this._URL = value;
-  }
+  _URL = 'https://api.github.com/users/';
   token = 'cbde866d93b44638dbc931242e7f19ea055b30a7';
 
   constructor(private http: HttpClient) { }

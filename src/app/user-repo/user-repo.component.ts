@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RepoService } from './../repos.service';
+import { ReposService } from './../repos.service';
 import { Repos } from './../mod/repos';
 
 @Component({
@@ -9,20 +9,14 @@ import { Repos } from './../mod/repos';
 })
 export class UserRepoComponent implements OnInit {
 
-  private _repo: Repos[] | undefined;
-  public get repo(): Repos[] | undefined {
-    return this._repo;
-  }
-  public set repo(value: Repos[] | undefined) {
-    this._repo = value;
-  }
+  repos!: Repos[];
 
-  constructor(public repoService: RepoService) { }
+  constructor(public reposService: ReposService) { }
 
   getRepo(searchTerm: string) {
-    this.repoService.getRepo(searchTerm).subscribe((data: any[]) => {
-      this.repo = data;
-      console.log(this.repo);
+    this.reposService.getRepo(searchTerm).subscribe((data: any[]) => {
+      this.repos = data;
+      console.log(this.repos);
     })
   }
 

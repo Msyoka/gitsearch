@@ -5,7 +5,7 @@ import { Observable } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class RepoService {
+export class ReposService {
 
   _URL = 'https://api.github.com/users/';
   token = 'cbde866d93b44638dbc931242e7f19ea055b30a7';
