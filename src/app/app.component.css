@@ -1,20 +1,20 @@
 .navbar {
     height: 70px;
-    background-color: #2F3020;
+    background-color: #0b0c3b;
     /* box-shadow: #2F3020; */
-    box-shadow: 0 4px 4px 0 #2F3020;
+    box-shadow: 0 4px 4px 0 #212058;
 }
 
 
 .navbar-brand.h1 {
-    color: #CDCBD6;
+    color: #e7f1f7;
     font-size: 2em;
 }
 
 
 .navbar-brand.h1:hover {
-    color: #e8eceb;
-    text-decoration: underline;
+    color: #84bbdf;
+    text-decoration: blanchedalmond;
 }
 
 
@@ -25,7 +25,7 @@
 
 
 .nav-item a {
-    color: #e8eceb;
+    color: #e7f1f7;
     margin: 10px;
     font-size: 20px;
 }
