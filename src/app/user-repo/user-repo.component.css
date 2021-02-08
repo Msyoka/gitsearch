@@ -3,7 +3,7 @@
 }
 
 .title {
-    color: #2f3021;
+    color: #212a30;
     margin-top: 1em;
     margin-left: 1em;
 }
@@ -13,12 +13,12 @@
 }
 
 .card {
-    background-color: #CDCBD6;
+    background-color: #b0b0d1;
     box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05),
     0 15px 40px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 .card-title, .card-text {
-    color: #2f3021;
+    color: #212130;
 }
