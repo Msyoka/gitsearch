@@ -8,13 +8,15 @@ import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 import { UserDataComponent } from './user-data/user-data.component';
 import { UserRepoComponent } from './user-repo/user-repo.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { SearchBarComponent } from './search-bar/search-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserDataComponent,
     UserRepoComponent,
-    NavbarComponent
+    NavbarComponent,
+    SearchBarComponent
   ],
   imports: [
     BrowserModule,
